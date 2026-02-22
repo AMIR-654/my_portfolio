@@ -7,4 +7,4 @@ export const supabase = createClient(supabaseUrl, publicAnonKey);
 // export const API_BASE_URL = `${supabaseUrl}/functions/v1/make-server-cf19bf36`;
 
 
-export const API_BASE_URL = "http://localhost:3000";
+export const API_BASE_URL = "myportfolio-production-fd9d.up.railway.app";
