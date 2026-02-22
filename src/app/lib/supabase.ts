@@ -7,4 +7,4 @@ export const supabase = createClient(supabaseUrl, publicAnonKey);
 // export const API_BASE_URL = `${supabaseUrl}/functions/v1/make-server-cf19bf36`;
 
 
-export const API_BASE_URL = "backend-production-2ab7.up.railway.app"
+export const API_BASE_URL = "backend-production-37cb.up.railway.app"
