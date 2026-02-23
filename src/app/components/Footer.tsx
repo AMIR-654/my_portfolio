@@ -33,7 +33,7 @@ export const Footer: React.FC = () => {
         <div className="grid md:grid-cols-3 gap-8">
           {/* About */}
           <div>
-            <h3 className="font-bold text-lg mb-3">كود ويب برو</h3>
+            <h3 className="font-bold text-lg mb-3">AMIR TECH  </h3>
             <p className="text-sm text-muted-foreground leading-relaxed">
               منصة احترافية لعرض الأعمال وحجز المواعيد. نقدم خدمات تطوير الويب والاستشارات التقنية.
             </p>
