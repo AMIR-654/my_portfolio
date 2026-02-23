@@ -1,5 +1,5 @@
 import React from 'react';
-import { Phone, Heart } from 'lucide-react';
+import { Phone } from 'lucide-react';
 
 // WhatsApp SVG Icon
 const WhatsAppIcon = () => (
@@ -15,7 +15,7 @@ const FacebookIcon = () => (
   </svg>
 );
 
-export const Footer: React.FC = () => {
+export default function Footer() {
   const currentYear = new Date().getFullYear();
 
   return (
@@ -70,8 +70,7 @@ export const Footer: React.FC = () => {
           <div>
             <h3 className="font-bold text-lg mb-3">تواصل معنا</h3>
             <div className="flex gap-4 mb-4">
-              {/* WhatsApp */}
-              <a
+              
                 href="https://wa.me/201552451705"
                 target="_blank"
                 rel="noopener noreferrer"
@@ -80,9 +79,7 @@ export const Footer: React.FC = () => {
               >
                 <WhatsAppIcon />
               </a>
-
-              {/* Facebook */}
-              <a
+              
                 href="https://www.facebook.com/share/17vGQz8fBN/"
                 target="_blank"
                 rel="noopener noreferrer"
@@ -91,9 +88,7 @@ export const Footer: React.FC = () => {
               >
                 <FacebookIcon />
               </a>
-
-              {/* Phone */}
-              <a
+              
                 href="tel:+201552451705"
                 className="footer-icon w-10 h-10 flex items-center justify-center rounded-full bg-muted hover:bg-primary hover:text-primary-foreground text-muted-foreground"
                 aria-label="Phone"
@@ -101,21 +96,27 @@ export const Footer: React.FC = () => {
                 <Phone className="w-5 h-5" />
               </a>
             </div>
-            {/* <p className="text-sm text-muted-foreground">
-              01552451705
-            </p> */}
           </div>
         </div>
 
         {/* Copyright */}
         <div className="border-t mt-8 pt-6 text-center">
-          <p className="text-sm text-muted-foreground flex items-center justify-center gap-2">
-            صنع بـ <Heart className="w-4 h-4 text-red-500 fill-red-500" /> في {currentYear}
-            <span className="mx-2">•</span>
-            كود ويب برو © جميع الحقوق محفوظة
+          <p className="text-sm text-muted-foreground flex items-center justify-center gap-2 flex-wrap">
+            تم التطوير بواسطة أمير أبو النجاه
+            <span className="mx-1">•</span>
+            
+              href="https://amirtech.com"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="footer-link hover:text-primary"
+            >
+              أمير تك
+            </a>
+            <span className="mx-1">•</span>
+            {currentYear} © جميع الحقوق محفوظة
           </p>
         </div>
       </div>
     </footer>
   );
-};
+}
