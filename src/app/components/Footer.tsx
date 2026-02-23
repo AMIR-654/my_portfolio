@@ -110,8 +110,8 @@ export const Footer: React.FC = () => {
         {/* Copyright */}
         <div className="border-t mt-8 pt-6 text-center">
          <p className="text-sm text-muted-foreground flex items-center justify-center gap-2 flex-wrap">
-  تم التطوير بواسطة أمير أبو النجاه
-  <Heart className="w-4 h-4 text-red-500 fill-red-500" />
+  تم التطوير بواسطة أمير  أبو النجاه
+ 
   <span className="mx-2">•</span>
   {currentYear} © جميع الحقوق محفوظة
 </p>
