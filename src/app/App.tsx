@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import { ThemeProvider } from 'next-themes';
 import { AuthProvider } from './contexts/AuthContext';
 import { Navigation } from './components/Navigation';
-// import { Footer } from './components/Footer';
+import { Footer } from './components/Footer';
 import { HomePage } from './pages/HomePage';
 import { AuthPage } from './pages/AuthPage';
 import { BookingPage } from './pages/BookingPage';
