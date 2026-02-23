@@ -1,5 +1,9 @@
 import React, { useState, useEffect, useRef } from 'react';
 
+interface HomePageProps {
+  onNavigate: (page: string) => void;
+}
+
 // Icons
 const WhatsAppIcon = () => (
   <svg viewBox="0 0 24 24" fill="currentColor" style={{width:'20px',height:'20px'}}>
@@ -52,7 +56,7 @@ const PhoneIcon = () => (
   </svg>
 );
 
-export default function HomePage() {
+export const HomePage: React.FC<HomePageProps> = ({ onNavigate }) => {
   const [mousePos, setMousePos] = useState({ x: 0, y: 0 });
   const [scrollY, setScrollY] = useState(0);
   const [visible, setVisible] = useState({});
