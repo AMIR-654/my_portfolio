@@ -416,8 +416,8 @@ export const HomePage: React.FC<HomePageProps> = ({ onNavigate }) => {
         </div>
       </section>
 
-      {/* FOOTER */}
-      <footer style={{ borderTop: '1px solid rgba(255,255,255,0.06)', padding: '28px 40px', display: 'flex', justifyContent: 'space-between', alignItems: 'center', flexWrap: 'wrap', gap: '16px' }}>
+      /* {/* FOOTER */}
+      {/* <footer style={{ borderTop: '1px solid rgba(255,255,255,0.06)', padding: '28px 40px', display: 'flex', justifyContent: 'space-between', alignItems: 'center', flexWrap: 'wrap', gap: '16px' }}>
         <div style={{ fontFamily: "'Space Mono', monospace", fontSize: '14px', color: '#00E5FF', letterSpacing: '2px', fontWeight: 700 }}>
           AMIR.TECH
         </div>
@@ -429,7 +429,7 @@ export const HomePage: React.FC<HomePageProps> = ({ onNavigate }) => {
           <a href="https://www.facebook.com/share/17vGQz8fBN/" target="_blank" rel="noopener noreferrer" className="amir-social"><FacebookIcon /></a>
           <a href="tel:+201552451705" className="amir-social"><Phone className="w-5 h-5" /></a>
         </div>
-      </footer>
+      </footer> */ */}
     </div>
   );
 };
