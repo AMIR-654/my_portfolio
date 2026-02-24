@@ -281,7 +281,7 @@ export const HomePage: React.FC<HomePageProps> = ({ onNavigate }) => {
                 </div>
               </div>
 
-              {/* Old workspace image below code card */}
+              {/* Workspace image */}
               <div className="relative rounded-none overflow-hidden mt-6" style={{ border: '1px solid rgba(255,255,255,0.06)' }}>
                 <ImageWithFallback
                   src="https://images.unsplash.com/photo-1546514714-df0ccc50d7bf?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxtb2Rlcm4lMjB3b3Jrc3BhY2UlMjBkZXZlbG9wZXJ8ZW58MXx8fHwxNzcxNDcyNzE2fDA&ixlib=rb-4.1.0&q=80&w=1080"
@@ -416,20 +416,6 @@ export const HomePage: React.FC<HomePageProps> = ({ onNavigate }) => {
         </div>
       </section>
 
-      /* {/* FOOTER */}
-      {/* <footer style={{ borderTop: '1px solid rgba(255,255,255,0.06)', padding: '28px 40px', display: 'flex', justifyContent: 'space-between', alignItems: 'center', flexWrap: 'wrap', gap: '16px' }}>
-        <div style={{ fontFamily: "'Space Mono', monospace", fontSize: '14px', color: '#00E5FF', letterSpacing: '2px', fontWeight: 700 }}>
-          AMIR.TECH
-        </div>
-        <div style={{ color: '#444', fontSize: '12px', fontFamily: "'Space Mono', monospace" }}>
-          © 2025 · Amir Abu Al-Najah
-        </div>
-        <div style={{ display: 'flex', gap: '10px' }}>
-          <a href="https://wa.me/201552451705" target="_blank" rel="noopener noreferrer" className="amir-social"><WhatsAppIcon /></a>
-          <a href="https://www.facebook.com/share/17vGQz8fBN/" target="_blank" rel="noopener noreferrer" className="amir-social"><FacebookIcon /></a>
-          <a href="tel:+201552451705" className="amir-social"><Phone className="w-5 h-5" /></a>
-        </div>
-      </footer> */ */}
     </div>
   );
 };
